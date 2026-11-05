@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chai Adda - Café near the college, Mumbai</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background: #fff8ee;
+    line-height: 1.6;
+  }
+  .container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+  section { padding: 60px 0; }
+  h2 { text-align: center; font-size: 2rem; color: #6b3e1b; margin-bottom: 30px; }
+
+  .hero {
+    background: #8b4a1f;
+    color: #fff;
+    text-align: center;
+    padding: 110px 20px;
+  }
+  .hero h1 { font-size: 3.5rem; margin-bottom: 15px; }
+  .hero p { font-size: 1.3rem; margin-bottom: 30px; }
+  .btn {
+    display: inline-block;
+    background: #f2a900;
+    color: #3a2000;
+    padding: 14px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .btn:hover { background: #ffc233; }
+
+  .about p { max-width: 700px; margin: 0 auto 15px; text-align: center; }
+
+  .menu { background: #fff; }
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  .item {
+    border: 1px solid #e5d3bd;
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .item h3 { color: #6b3e1b; font-size: 1.1rem; }
+  .item p { font-size: 0.9rem; color: #666; }
+  .price { font-weight: bold; color: #8b4a1f; white-space: nowrap; }
+  #special { text-align: center; margin-top: 30px; background: #fff0cc; padding: 15px; border-radius: 6px; }
+
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+  }
+  .info-grid h3 { color: #6b3e1b; margin-bottom: 10px; }
+  .info-grid table { width: 100%; border-collapse: collapse; }
+  .info-grid td { padding: 4px 0; }
+
+  footer {
+    background: #3a2000;
+    color: #ddd;
+    text-align: center;
+    padding: 25px 20px;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 2.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>Chai Adda</h1>
+  <p>Garam chai, good friends, and zero bunking guilt.</p>
+  <a href="#special" class="btn">See today's special</a>
+</header>
+
+<section class="about">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>Chai Adda is a tiny café tucked into the lane just outside the college gate. We started in 2019 with one kettle and a few stools, and now we are the place students come to for cutting chai, hot snacks and a quiet corner to finish assignments.</p>
+    <p>Everything is made fresh each morning, priced to fit a student's pocket.</p>
+  </div>
+</section>
+
+<section class="menu">
+  <div class="container">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+      <div class="item"><div><h3>Masala Chai</h3><p>Ginger, cardamom and strong tea</p></div><span class="price">₹20</span></div>
+      <div class="item"><div><h3>Cutting Chai</h3><p>Half glass, full energy</p></div><span class="price">₹12</span></div>
+      <div class="item"><div><h3>Cold Coffee</h3><p>Thick, chilled and sweet</p></div><span class="price">₹60</span></div>
+      <div class="item"><div><h3>Vada Pav</h3><p>Mumbai's favourite, with garlic chutney</p></div><span class="price">₹20</span></div>
+      <div class="item"><div><h3>Bun Maska</h3><p>Soft bun with loads of butter</p></div><span class="price">₹30</span></div>
+      <div class="item"><div><h3>Veg Grilled Sandwich</h3><p>Toasted with green chutney</p></div><span class="price">₹70</span></div>
+    </div>
+    <div id="special">
+      <strong>Today's special:</strong> Elaichi Chai + Bun Maska combo for just ₹40!
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Visit Us</h2>
+    <div class="info-grid">
+      <div>
+        <h3>Opening Hours</h3>
+        <table>
+          <tr><td>Monday - Friday</td><td>7:30 AM - 9:00 PM</td></tr>
+          <tr><td>Saturday</td><td>8:00 AM - 10:00 PM</td></tr>
+          <tr><td>Sunday</td><td>9:00 AM - 6:00 PM</td></tr>
+        </table>
+      </div>
+      <div>
+        <h3>Location</h3>
+        <p>Shop 4, Gate No. 2 Lane,<br>Opp. City College, Vidyanagar Road,<br>Mumbai 400 099</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p>Phone: +91 98765 43210<br>Email: hello@chaiadda.example<br>Instagram: @chaiadda.mumbai</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Chai Adda. Made with chai in Mumbai.</p>
+</footer>
+
+</body>
+</html>
