@@ -6,6 +6,8 @@ A small experiment: one made-up café website, built twice with identical words.
 - `after.html` - the same page redesigned using the Impeccable design skill. Only the design changed; every word is the same.
 - `prompts.md` - the two prompts used.
 
+**See them online:** [before.html](https://harshreaver.github.io/Same-Page-New-Design/before.html) and [after.html](https://harshreaver.github.io/Same-Page-New-Design/after.html)
+
 Chai Adda is an imaginary café near a college in Mumbai. The page has a hero with a button, an about section, a six-item menu, opening hours, location and contact, and a footer.
 
 ## The 3 most important design changes
@@ -18,5 +20,5 @@ Chai Adda is an imaginary café near a college in Mumbai. The page has a hero wi
 
 - [x] Both files exist: `before.html` and `after.html`.
 - [x] The words in both match (checked by extracting the visible text and page title from each file and comparing: 199 words, no differences).
-- [x] The redesign works on a phone (single-column layout, fluid type sizes, tap targets of 44px or more, tap-to-call and tap-to-mail links, no fixed widths). This was checked from the code, not on a real device.
+- [x] The redesign works on a phone (single-column layout, fluid type sizes, tap targets of 44px or more, tap-to-call and tap-to-mail links, no fixed widths). Checked at 375 px phone width in the browser: no sideways scrolling.
 - [x] 3 design changes named (above).
